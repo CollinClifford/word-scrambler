@@ -1,13 +1,22 @@
-.App {
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans);
+.container {
   text-align: center;
+  margin: 10%;
+  border-style: none;
+  font-family: "Open Sans";
+  background-color: white;
+  border-radius: 12px;
+  padding: 5%;
+}
+h1 {
+  color: navy;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  border-style: none;
+  background-color: #e1e1e1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +44,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
