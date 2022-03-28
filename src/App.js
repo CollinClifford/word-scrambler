@@ -84,7 +84,7 @@ function App() {
                   className="space"
                   disabled
                   maxLength="1"
-                ></input>
+                ></input> 
                 <br />
               </>
             );
@@ -106,6 +106,6 @@ function App() {
       </form>
     </div>
   );
-}
+} 
 
 export default App;
